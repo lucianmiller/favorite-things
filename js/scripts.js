@@ -6,8 +6,10 @@ $(document).ready(function() {
     const favoriteThing3 = $("#input3").val();
 
     let array = []
-    array.push(favoriteThing);
+    array.push(favoriteThing1);
+    array.push(favoriteThing2);
+    array.push(favoriteThing3);
     console.log(array);
-    $("ul").prepend("<li>" + array[0] + "</li>");
+    // $("ul").prepend("<li>" + array[0] + "</li>");
   });
 });
