@@ -10,6 +10,8 @@ $(document).ready(function() {
     array.push(favoriteThing2);
     array.push(favoriteThing3);
     console.log(array);
-    // $("ul").prepend("<li>" + array[0] + "</li>");
+    $("ul").prepend("<li>" + array[2] + "</li>");
+    $("ul").prepend("<li>" + array[1] + "</li>");
+    $("ul").prepend("<li>" + array[0] + "</li>");
   });
 });
